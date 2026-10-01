@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-01",
+  "funnel": {
+    "issues downloaded (resolved since 2021 or still open)": 7592,
+    "resolved as Fixed by 30 Sep 2026": 3494,
+    "of which resolved 2022 onward": 2893,
+    "... and passed through a working state (cycle time defined)": 2498,
+    "still open": 3286,
+    "Fixed since 2022 straight from triage/backlog (batch closes, left out of throughput)": 395
+  },
+  "cycle_time_days": {
+    "p50": 6.738318993055556,
+    "p70": 20.065394011574067,
+    "p85": 59.88112743055532,
+    "p95": 270.8107166973383
+  },
+  "lead_time_days": {
+    "p50": 15.596197916666668,
+    "p70": 49.940671296296294,
+    "p85": 154.27476388888888,
+    "p95": 561.6389982638891
+  },
+  "flow_efficiency_median": 0.127068428412346,
+  "flow_efficiency_mean": 0.3402143976740645,
+  "waiting_share_of_cycle_time": 0.47710640528913584,
+  "throughput_last_26_weeks": {
+    "mean": 9.461538461538462,
+    "median": 9.0
+  },
+  "forecast_next_8_weeks": {
+    "p5": 57.0,
+    "p15": 64.0,
+    "p50": 75.0,
+    "p85": 87.0,
+    "p95": 93.0
+  },
+  "forecast_method": "Monte Carlo from the last 26 weeks' weekly throughput",
+  "backtest": {
+    "forecasts": 40,
+    "nominal_70_band_hit_rate": 0.5,
+    "nominal_90_band_hit_rate": 0.625
+  },
+  "little": {
+    "avg_wip": 272.6303344867359,
+    "throughput_per_day": 1.4405997693194925,
+    "implied_avg_cycle_days": 189.24779823859086,
+    "measured_avg_cycle_days": 63.86110272865052,
+    "avg_wip_items_that_were_fixed": 54.520184544406,
+    "implied_avg_cycle_days_fixed_only": 37.84547638110489,
+    "note": "Little's Law: average WIP = throughput x average time in WIP; WIP here counts only working/review states"
+  },
+  "open_in_progress_or_review": 397,
+  "open_older_than_p85": 305
+}

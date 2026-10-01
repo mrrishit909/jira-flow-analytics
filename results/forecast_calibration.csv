@@ -1,0 +1,5 @@
+history,nominal_70_p15_p85,nominal_80_p10_p90,nominal_90_p5_p95
+last 13 weeks,0.5,0.55,0.6
+last 26 weeks,0.5,0.525,0.625
+last 52 weeks,0.4,0.475,0.575
+"last 52 weeks, 4-week blocks",0.5,0.6,0.7

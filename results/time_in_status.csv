@@ -1,0 +1,14 @@
+status,sum,count,share,kind
+Patch Available,51952.7965,2947,0.3257,waiting
+Open,29846.4304,311,0.1871,other
+In Progress,29463.3985,1544,0.1847,working
+Review In Progress,21304.6874,2939,0.1336,working
+Ready to Commit,7883.8976,2563,0.0494,waiting
+Awaiting Feedback,6851.7649,5,0.043,waiting
+Changes Suggested,5460.5781,215,0.0342,waiting
+Needs Committer,3948.4747,565,0.0248,waiting
+Resolved,2753.7466,77,0.0173,other
+Requires Testing,45.8166,13,0.0003,working
+Needs Reviewer,12.9109,1,0.0001,waiting
+Testing,0.546,7,0.0,working
+Triage Needed,0.0008,3,0.0,other
